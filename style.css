@@ -1,0 +1,104 @@
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 1em;
+}
+.navigation{
+    background-color: rgb(10, 10, 70);
+    position: sticky;
+    top: 0;
+}
+.navlinks{
+    display: flex;
+}
+.listItem{
+    padding-inline: 2em;
+    list-style: none;
+    transition: 0.5s;
+}
+.listItem:hover{
+    color: rgb(20, 215, 233) ;
+}
+.leftSide{
+    width: 30em;
+}
+.container{
+    width: 70em;
+    margin: auto;
+}
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.Home{
+    background-image: url(media/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 43em;
+}
+.about{
+    background-color: blue;
+}
+.Text{
+    padding-top: 10em;
+    width: 33em;
+}
+div>i{
+    margin-right: 1.5em;
+    padding: 7px;
+    border: 2px solid rgb(20, 215, 233);
+    border-radius: 50%;
+    color: rgb(20, 215, 233);
+    box-shadow: 1px 1px 20px rgb(20, 215, 233) ;
+    width: 1em;
+    text-align: center;
+    transition: 0.5s;
+    
+}
+div>i:hover{
+    color: black;
+    background-color:rgb(20, 215, 233) ;
+}
+.BlueText{
+    color: rgb(20, 215, 233);
+}
+.button{
+    margin-top: 3em;
+    padding: 1em;
+    background-color: rgb(20, 215, 233);
+    border-radius: 2em;
+    box-shadow: 1px 1px 20px rgb(20, 215, 233) ;
+    border: none;
+    transition: 0.5s;
+}
+.button:hover{
+    box-shadow: 1px 1px 30px rgb(20, 215, 233);
+}
+
+.typing .text{
+    overflow: hidden;
+    border-right: .12em solid rgb(20, 215, 233);
+    white-space: nowrap;
+    letter-spacing: .15em;
+    width: 53%;
+    animation: 
+        typing 3.5s steps(40),
+        blinking .5s step-end infinite
+    ;
+}
+@keyframes typing {
+    from{width: 0;}
+    to{width: 53%;}
+}
+@keyframes blinking {
+    from, to{
+        border-color: transparent;
+    }
+    50%{
+        border-color: rgb(20, 215, 233);
+    }
+}
+
+
