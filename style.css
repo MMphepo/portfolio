@@ -23,8 +23,16 @@
     width: 30em;
 }
 .container{
-    width: 70em;
+
+    width: 70%;
+    padding: 4em;
     margin: auto;
+    border: 1px solid white;
+    background-image: url(media/Background.crop.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 body{
     box-sizing: border-box;
@@ -33,16 +41,14 @@ body{
     color: white;
 }
 .Home{
-    background-image: url(media/Background.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 43em;
+    display: flex;
+    height: 100vh;
 }
 .about{
     background-color: blue;
 }
 .Text{
-    padding-top: 10em;
+
     width: 33em;
 }
 div>i{
